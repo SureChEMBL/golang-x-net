@@ -9,7 +9,7 @@ Uploaders: Martín Ferrari <tincho@debian.org>,
            Tim Potter <tpot@hpe.com>,
            Anthony Fok <foka@debian.org>
 Build-Depends: debhelper (>= 9), dh-golang (>= 1.17), golang-any (>= 2:1.5),
-               golang-x-text-dev (>= 0+git20151217.cf49866)
+               golang-x-text-dev (>= 0.0~git20170627)
 Standards-Version: 4.0.0
 Homepage: https://godoc.org/golang.org/x/net
 Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-golang-x-net-dev.git
@@ -19,7 +19,7 @@ XS-Go-Import-Path: golang.org/x/net
 Package: golang-golang-x-net-dev
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends},
-         golang-x-text-dev (>= 0+git20151217.cf49866),
+         golang-x-text-dev (>= 0.0~git20170627),
          golang-any (>= 2:1.5),
 Replaces: golang-go.net-dev (<< 0.0+git20150226.3d87fd6-2~)
 Breaks: golang-go.net-dev (<< 0.0+git20150226.3d87fd6-2~)
