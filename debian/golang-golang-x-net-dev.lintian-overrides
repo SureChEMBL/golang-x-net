@@ -1,0 +1,5 @@
+# There is no upstream changelog.
+golang-golang-x-net-dev: no-upstream-changelog
+# These files are just used as a test input.
+golang-golang-x-net-dev: privacy-breach-google-plus usr/share/gocode/src/golang.org/x/net/html/testdata/go1.html
+golang-golang-x-net-dev: privacy-breach-google-adsense usr/share/gocode/src/golang.org/x/net/html/testdata/go1.html
